@@ -1,0 +1,14 @@
+<div class="card mt-5">
+    <div class="card-body">
+<h1 class="text-center">Películas favoritas</h1>
+
+<table class="table table-sm table-hover">
+
+    <tbody>
+        <tr *ngFor="let pelicula of peliculas">
+            
+            <td>{{pelicula.titulo}}</td>
+        </tr>
+    </tbody>
+
+</table>
